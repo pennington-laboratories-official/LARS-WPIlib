@@ -1,0 +1,20 @@
+{
+  "fileName": "PenningtonLabsLARS.json",
+  "name": "PenningtonLabsLARS",
+  "version": "0.1.0",
+  "frcYear": "2026",
+  "uuid": "4a5f9e7c-7e6c-4a4b-9a0d-0a2f3d6f8e31",
+  "mavenUrls": [
+    "https://pennington-laboratories.github.io/LARS-WPILib/maven/"
+  ],
+  "jsonUrl": "https://pennington-laboratories.github.io/LARS-WPILib/PenningtonLabsLARS.json",
+  "javaDependencies": [
+    {
+      "groupId": "com.penningtonlaboratories.frc",
+      "artifactId": "LARS-WPILib-java",
+      "version": "0.1.0"
+    }
+  ],
+  "jniDependencies": [],
+  "cppDependencies": []
+}
