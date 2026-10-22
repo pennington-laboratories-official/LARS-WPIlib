@@ -5,10 +5,8 @@ This document is the protocol design record for the team-facing LARS library.
 ## FIRST CAN identity
 
 - Device Type: `6` (Distance Sensor)
-- Manufacturer ID: assigned by FIRST
+- Manufacturer ID: NA
 - Device Number: `0-63`
-
-The manufacturer ID is not yet hard-coded into the production release until FIRST assigns Pennington Laboratories its manufacturer identifier.
 
 ## Communication model
 
@@ -42,7 +40,6 @@ Class 2 - Response
   Index 2 - Status
 ```
 
-These identifiers must be frozen before the first public production release.
 
 ## Distance response
 
@@ -87,7 +84,3 @@ Byte 1: fault flags
 Byte 2: reserved
 Bytes 3-7: reserved
 ```
-
-## Important
-
-This document is intentionally kept separate from the firmware source. The firmware repository remains private. The public repository exposes only the protocol required by FRC teams.
