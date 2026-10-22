@@ -18,8 +18,6 @@ WPILib 2027 support will be released separately after the 2027 API stabilizes.
 
 ## Installation
 
-Once the vendor Maven repository is published, teams can install LARS through:
-
 WPILib VS Code → Manage Vendor Libraries → Install New Libraries (Online)
 
 The vendor JSON will be hosted at:
